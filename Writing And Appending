@@ -1,0 +1,16 @@
+# f = open("Deepankar.txt", "w")
+# a = f.write("hey\n")
+# print(a)
+# f.close()
+
+# f = open("Deepankar2.txt", "a")
+# a = f.write("hey\n")
+# print(a)
+# f.close()
+
+
+# Handle read and write both
+f = open("Deepankar.txt", "r+")
+print(f.read())
+f.write("thank you")
+  
