@@ -1,0 +1,14 @@
+With open(“file_name.txt”) as f:
+
+
+With open(“file1txt”) as f, open(“file2.txt”) as g
+
+
+with open("deepankar.txt") as f:
+    a = f.readlines()
+    print(a)
+
+# f = open("deepankar.txt", "rt")
+
+# f.close()
+  
