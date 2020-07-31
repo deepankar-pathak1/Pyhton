@@ -1,0 +1,46 @@
+
+class Employee:
+    no_of_leaves = 8
+    pass
+
+harry = Employee()
+rohan = Employee()
+
+harry.name = "Harry"
+harry.salary = 455
+harry.role = "Instructor"
+
+rohan.name = "Rohan"
+rohan.salary = 4554
+rohan.role = "Student"
+
+print(Employee.no_of_leaves)
+print(Employee.__dict__)
+Employee.no_of_leaves = 9
+print(Employee.__dict__)
+print(Employee.no_of_leaves)
+
+
+
+
+
+
+
+class Employee:
+    no_of_leaves = 10
+    pass
+rohan = Employee()
+deep = Employee()
+
+rohan.name = "Rohan"
+rohan.salary = 10
+deep.name = "deepankar"
+deep.salary = 45
+
+print(rohan.name)
+print(deep.name)
+Employee.no_of_leaves = 90
+print(rohan.no_of_leaves)
+
+# But it will not change if we change the rohan.no_of_leves because 
+it is not class property it is an object property so to change the class property we have to alter class
