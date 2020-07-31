@@ -1,0 +1,18 @@
+In basic English language, Polymorphism means to exist in different states. 
+The same object or thing changing its state from one form to another is known as polymorphic. 
+A same function or method, being used differently in different scenarios can perfectly describe polymorphism. 
+It occurs mostly with base and derived class.  
+
+len("Python") # returns 6 as resultPython also implements polymorphism using methods. 
+The len() method that returns the length of an object. 
+In this case, the function len() is polymorphic as it is taking a string as input in the first case which returns total length/characters of the string 
+
+
+len([1,2,3,4,5,6,7,8,9]) # returns 9 as result
+in the second case, it is taking list as input
+
+
+print(5+6)
+print("5" + "6")
+
+
