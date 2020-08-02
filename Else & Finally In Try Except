@@ -1,0 +1,41 @@
+try and except block:
+In the try block, we write the code in which an exception might occur, and in except block, we write the code as a resultant if an exception occurs. 
+
+
+else keyword:-
+We use an else keyword to print something in cases where no exception occurs.
+
+try:
+    #Run this code
+except Exception as error:
+    #Execute this code when there is an exception
+else:
+    #No Exception. Run this code
+    
+    
+finally:-
+finally, will run in either case. It is also known as code cleaner because it will perform its action, either an exception occurs or not.
+
+try:
+    #Run this code
+except Exception as error:
+    #Execute this code when there is an exception
+else:
+   #No Exception. Run this code
+finally:
+   #Always run this code
+   
+   
+   
+   
+In the try block, all the statements are executed until an exception occurs.
+Except block is used to catch and handle the exception(s) that occurs during the execution of the try block.
+Else block runs only when no exceptions occur in the execution of the try block.
+Finally block always run, either an exception occurs or not.
+
+
+
+Try      Not Running    Running
+Except   Running        Not running
+Else     Will not run   Run
+Finally  Will Run       Will Run
