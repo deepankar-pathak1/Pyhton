@@ -1,0 +1,59 @@
+# # Comment are those line which pyhton interpreter ignores like example here we are writting this but it will not run :)
+# print("Pleasa learn")
+# # we can use multiple line comment by using triple quates
+# """
+# Hey all
+# i think so
+# you are learnig
+# """
+# print("Dream big acheive big")
+# Now we want to do some modification while printing
+# print("What is Your name")
+# print("My name is Deepankar")
+# # we want to code this in one line
+# print("What is Your name", end = " ? ") # end is a new line character
+# print("My name is Deepankar")
+# print("What is Your name","My name is Deepankar") # here due to comma it will generate an space(,)
+# print("Hey\nWhat is You are doing") # \n :- it will generate a new line,as it called new line character basically it is a exacpe sequence character
+# print(":c\nDeepankar")
+# print(":c\\nDeepankar") # \n is for new line  and \ is for escape character
+# print("Deepanka\"r") # because here \ is escape sequence character
+# # some of the back slash character is
+# print("Deepankar\nis\tRich") #\t tab \n new line
+
+# name = "Deepankar"
+# classe = "pathak"
+# var1 = 90
+# var2 = 98
+# print(name + classe)
+# # print(name + var1) #generate an error as type is not same
+# # we can do type casting as follws
+# print(name + str(classe)) #here it changed the variable classe to a string format
+# # we can do string conctination and replication also
+# print(name * 10)
+# print(10 * "name\n")
+
+# # user input
+# print("Please enter Your name")
+# name = input("Name : ")
+# print(type(name)) # string class
+# # now we want to add number while taking input from user
+# numeber = int(input("Eneter Number : "))
+# number_2 = int(input("Enter Number 2 : "))
+# print(numeber + number_2).
+
+# string slicing
+name = "Deepankar is Rich"
+print(len(name))
+print(name[2:9]) #string [starting:ending]
+# print(name[5555]) #generate an error as it is out of range
+print(name[0:555]) # it is out if range but it will give output as it start from 0 and moves to 555 in this particular string.
+print(name[::]) # it will output of full name
+print(name[::2]) # it will jump by 2 character
+print(name.isalnum()) #check for alpha numeric
+print(name.endswith("Rich")) # as end with boy
+print(name.count("e")) # count number of e in a string
+print(name.capitalize())
+print(name.find("is"))
+print(name.lower())
+print(name.replace("Deepankar","Pathak")) #replacing deepankar with pathak
