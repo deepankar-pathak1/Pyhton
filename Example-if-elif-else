@@ -8,5 +8,25 @@ else:
     
     
     
- Please enter age : 18
+Please enter age : 18
 Wait for time
+
+
+
+
+age = int(input("Enter the age"))
+if age in range(10,100):
+    if age > 18:
+        print("You can Drive ")
+    elif age < 18:
+        print("You can'not Drive")
+    else:
+        print("You Must wait.")
+else:
+    print("Age Must be in Limit")
+    
+    
+    
+    
+Enter the age : 20
+You can Drive 
