@@ -1,0 +1,28 @@
+# Faulty Calculator
+number_1 = int(input("Enter The Number 1 : "))
+number_2 = int(input("Enter The Number 2 : "))
+
+operator = input("Enter The Opearator : ")
+
+if operator == "*":
+    if number_1 == 45 and number_2 == 3:
+        print(555)
+    else:
+        print(number_1*number_2)
+if operator == "+":
+    if number_1 == 56 and number_2 == 9:
+        print(77)
+    else:
+        print("Sum is ",number_1+number_2)
+if operator == "/":
+    if number_1 == 56 and number_2 == 6:
+        print(4)
+    else:
+        print("Division is : ",number_1/number_2)
+        
+        
+        
+Enter The Number 1 : 56
+Enter The Number 2 : 6
+Enter The Opearator : /
+4
