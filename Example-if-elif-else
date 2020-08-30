@@ -1,0 +1,12 @@
+age = int(input("Please enter age : "))
+if age > 18:
+    print("You can drive")
+elif age < 18:
+    print("You cann't Drive")
+else:
+    print("Wait for time")
+    
+    
+    
+ Please enter age : 18
+Wait for time
