@@ -1,0 +1,4 @@
+a = 10
+b = 15
+
+print("A is Graeter than B" if a>b else "B is Greater than A")
