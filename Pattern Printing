@@ -11,3 +11,23 @@ if bool_val == "1":
 if bool_val == "0":
     for i in range(num,0,-1):
         print("*" * int(i))
+
+
+
+
+
+"""OR"""
+
+
+
+# number = int(input("Enetr how many stairs of stars you want : "))
+# conditions = input("Enter True for in sequence and False for reverse order : ")
+# 
+# if conditions == "True":
+#     for i in range(number):
+#         print("*"*(i+1))
+# elif conditions == "False":
+#     for j in range(number):
+#         print("*"*(number-j))
+# else:
+#     print("You must enter a valid number")
