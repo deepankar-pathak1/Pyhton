@@ -1,0 +1,26 @@
+# def function_1():
+#     print("What is Your name")
+#
+# function_1()
+def fuction_1(a,b):
+    c = (a+b)/2
+    print(f"Average of two number is {c}")
+
+d = fuction_1(8,8)
+print(d)
+
+def function_2(d,e):
+    f = (d+e)/2
+    return f
+
+g = function_2(10,10)
+print(g)
+
+
+OUTPUT : -
+
+Average of two number is 8.0
+None
+
+
+10.0
