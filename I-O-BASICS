@@ -1,0 +1,9 @@
+# r is used for reading a file
+# w is used for writting a file
+#     
+# x is used if file is not in used
+# a is used if we want to add more content
+# t is used for test mode
+# b is used for binary mode
+#     
+# # + is used for read and write
