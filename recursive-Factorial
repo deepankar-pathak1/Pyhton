@@ -1,0 +1,9 @@
+def factorial(num):
+
+    return  1 if num == 1 else num*(factorial(num-1))
+num = int(input("Enter a Number : "))
+
+print(f"Factorial of {num} is {factorial(num)}")
+
+Enter a Number : 4
+Factorial of 4 is 24
