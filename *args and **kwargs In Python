@@ -1,21 +1,74 @@
-# def function_name_print(a, b, c, d, e):
-#     print(a, b, c, d, e)
+# # # args
+# #
+# # def name(*args):
+# #     for i in args:
+# #         print(i)
+# #     # print(args[0]
+# #
+# #
+# # lst = ["Deepankar","Pathak","Class"]
+# #
+# # name(*lst)
+#
+# # there is a thumb rule
+#
+# def names(normal,*args):
+#     print(normal)
+#     for i in args:
+#         print(i)
+#
+#
+# normal = "This is a normal variable"
+# lst = ["name","Class","place"]
+#
+#
+# names(normal,*lst)
+#
+# # now if we change the normal argumnet with *args it will generate an error Because order should be  names(normal,*args)
 
-def funargs(normal, *argsrohan, **kwargsbala):
+
+
+# now we are going to discuss the concept behind Kwargs
+
+def deepu(normal,*args,**kwargs):
     print(normal)
-    for item in argsrohan:
-        print(item)
-    print("\nNow I would Like to introduce some of our heroes")
-    for key, value in kwargsbala.items():
-        print(f"{key} is a {value}")
+
+    for i in args:
+        print(f"The name is : {i}")
+        print("*****")
+
+    for key,value in kwargs.items():
+        print(f"The Name is {key} and work is {value}")
+        print("*****")
 
 
-# function_name_print("Harry", "Rohan", "Skillf", "Hammad", "Shivam")
+normal = "This is a Normal Vraible"
+print("******")
 
-har = ["Harry", "Rohan", "Skillf", "Hammad",
-       "Shivam", "The programmer"]
-normal = "I am a normal Argument and the students are:"
-kw = {"Rohan":"Monitor", "Harry":"Fitness Instructor",
-      "The Programmer": "Coordinator", "Shivam":"Cook"}
-funargs(normal, *har, **kw)
-  
+name = ["Deepankar","Anshu","Dinesh"]
+dic = {"Deepankar":"Data Scientist","Anshu":"Digital marketer","Dinesh":"Studying"}
+
+
+deepu(normal,*name,**dic)
+
+
+
+*** OUTPUT ***
+
+
+******
+This is a Normal Vraible
+The name is : Deepankar
+*****
+The name is : Anshu
+*****
+The name is : Dinesh
+*****
+The Name is Deepankar and work is Data Scientist
+*****
+The Name is Anshu and work is Digital marketer
+*****
+The Name is Dinesh and work is Studying
+*****
+
+Process finished with exit code 0
