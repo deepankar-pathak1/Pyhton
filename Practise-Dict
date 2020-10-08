@@ -1,0 +1,29 @@
+name = {"Name":"Deepankar","Class":"Pathak"}
+for i in name.keys():
+    print(i)
+    
+  **** ****
+  
+Name
+Class
+
+
+
+name = {"Name":"Deepankar","Class":"Pathak"}
+for i in name.values():
+    print(i)
+    
+    **** ****
+Deepankar
+Pathak
+
+
+
+name = {"Name":"Deepankar","Class":"Pathak"}
+for i in name.items():
+    print(i)
+    
+    
+    *** ***
+('Name', 'Deepankar')
+('Class', 'Pathak')
